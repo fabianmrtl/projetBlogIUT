@@ -11,18 +11,18 @@
             
         <!-- Heading Row-->
         <div class="row gx-4 gx-lg-5 align-items-center my-5"></div>
-            <form action="recherche.php" method="POST" enctype='multipart/form-data'>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Recherche</label>
-                    <input type="text" name="text" class="form-control">
+        <form action="recherche.php" method="POST" enctype='multipart/form-data'>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Recherche</label>
+                <input type="text" name="text" class="form-control">
+            </div>
+            <center>
+                <div class="col-auto">
+                    <button name="submit" type="submit" class="btn btn-primary mb-3">Rechercher</button>
                 </div>
-                <center>
-                    <div class="col-auto">
-                        <button name="submit" type="submit" class="btn btn-primary mb-3">Rechercher</button>
-                    </div>
-                </center>
-            </form>
+            </center>
+        </form>
         <!-- Footer-->
-            <?php include 'include/footer.inc.php'; ?>
+        <?php include 'include/footer.inc.php'; ?>
     </body>
 </html>

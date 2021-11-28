@@ -74,6 +74,6 @@
                 </center>
             </form>
         <!-- Footer-->
-            <?php include 'include/footer.inc.php'; ?>
+        <?php include 'include/footer.inc.php'; ?>
     </body>
 </html>

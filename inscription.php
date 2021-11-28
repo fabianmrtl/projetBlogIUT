@@ -8,11 +8,7 @@
 
         <!-- Page Content-->
         <?php if (isset($_POST['submit'])) {
-            //print_r2($_POST);
             $user = new user();
-            //$password = $user->getMdp();
-            //$password_hash = password_hash($password);
-            //$user->setMdp($password_hash, PASSWORD_DEFAULT);
             $user->hydrate($_POST);
 
             $userManager = new userManager($bdd);
@@ -56,6 +52,6 @@
                 </center>
             </form>
         <!-- Footer-->
-            <?php include 'include/footer.inc.php'; ?>
+        <?php include 'include/footer.inc.php'; ?>
     </body>
 </html>
